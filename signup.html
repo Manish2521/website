@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <title>cousera</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body style="background-color: #000519;">
+  <span> <p class="fc">R  E  A</p> </span> 
+ <img src="iaugmentor1.png" class="center">
+    <div>
+     <p class="log">Sign-up</p>
+
+    </div>
+    <div class="container">
+        
+        <input type="text" placeholder="First Name" required>
+     
+    
+        <input type="text" placeholder="Last Name" required>
+    </div>   
+    <div class="container1">
+        
+        <input type="text" placeholder="Email" required>
+    </div>    
+    <div class="input-container">
+        <input type="password" placeholder="      Password" required/>
+        <i class="material-icons visibility">visibility_off</i>
+      </div>
+
+      <div class="input-container1">
+        <input type="password" placeholder="      Confirm Password" required/>
+        <i class="material-icons visibility">visibility_off</i>
+      </div>
+
+      <div class="group">
+        <input type="submit" class="button" value="Register">
+      </div>
+
+      <div>
+        <p class="register">Already Registered?</p>
+    </div>
+    <div>
+        <p class="register1"><a href="new.html">Login here</a> </p>
+    </div>
+
+      <script>
+        const visibilityToggle = document.querySelector('.visibility');
+
+const input = document.querySelector('.input-container input');
+
+var password = true;
+
+visibilityToggle.addEventListener('click', function() {
+if (password) {
+ input.setAttribute('type', 'text');
+ visibilityToggle.innerHTML = 'visibility';
+} else {
+ input.setAttribute('type', 'password');
+ visibilityToggle.innerHTML = 'visibility_off';
+}
+password = !password;
+
+});
+
+
+   </script>
+
+<script>
+    const visibilityToggle = document.querySelector('.visibility');
+
+const input = document.querySelector('.input-container1 input');
+
+var password = true;
+
+visibilityToggle.addEventListener('click', function() {
+if (password) {
+input.setAttribute('type', 'text');
+visibilityToggle.innerHTML = 'visibility';
+} else {
+input.setAttribute('type', 'password');
+visibilityToggle.innerHTML = 'visibility_off';
+}
+password = !password;
+
+});
+
+
+</script>
+
+    </body>
+</html>

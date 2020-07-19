@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+p {
+    color: blue;
+}
+
+
+.fc{
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 4px #87cefa;
+    font-size: 5em;
+    color:#D3D3D3;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 20px;    
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+  }
+  
+  .log{
+    font-weight: bold;
+    color: ivory;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.container{
+    text-align: center;
+    padding-bottom: 12px;
+    width: 100%;
+    border-radius: 3px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+
+  .container input{
+    background: none;
+    color: white;
+    width: 14%;
+    border: 1px solid #aaa;
+    outline: none;
+  text-align: center; 
+  font-size: 15px;
+  border-radius: 5px;
+  padding-bottom: 6px;
+  
+  }
+
+
+
+
+.container1{
+    text-align: center;
+    padding-bottom: 12px;
+    width: 100%;
+    border-radius: 3px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  .container1 input{
+    background: none;
+    color: white;
+    width: 29%;
+    border: 1px solid #aaa;
+    outline: none;
+  text-align: center; 
+  font-size: 15px;
+  border-radius: 5px;
+  padding-bottom: 6px;
+  
+  }
+  
+
+   
+.input-container {
+    width: 29%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .input-container input {
+    
+    width: 100%;
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+    background: none;
+    outline: none;
+    color: azure;
+  }
+  i {
+    margin: 0 10px;
+    color: #aaa;
+    
+    
+  }
+
+  .input-container1 {
+    width: 29%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background: none;
+   
+    
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .input-container1 input {
+    
+    width: 100%;
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+    background: none;
+    outline: none;
+    color: azure;
+  }
+  i {
+    margin: 0 10px;
+    color: #aaa;
+    
+    
+  }
+
+  .button{
+    margin: 0 auto;
+    text-align: center;
+  border: none;
+  background-color:  #50b3dd;
+  padding: 8px 30px;
+  display: block;
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 14px;
+  border-radius: 25px;
+  
+  }
+  .register{
+    text-align: center;
+    color: #aaa;
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+
+  .register1{
+    text-align: center;
+    color:#00FFFF;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 10px;
+  }
